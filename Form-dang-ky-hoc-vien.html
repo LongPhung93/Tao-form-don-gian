@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            background-color: orange;
+        }
+        td {
+            padding: 5px;
+        }
+        h3 {
+            color: blue;
+            background-color: powderblue;
+        }
+        .colortext {
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+
+<!--Tạo một form đăng ký học viên với cấu trúc:-->
+<form>
+<table>
+    <tr>
+        <td colspan="2"><h3>ĐĂNG KÝ HỌC VIÊN</h3></td>
+    </tr>
+    <tr>
+        <td class="colortext"><label for="">Họ và tên </label></td>
+        <td ><input style="width: 200px;" type="text" name="name" class="form-control" id="" placeholder=""></td>
+    </tr>
+    <tr>
+        <td class="colortext"><label for="">Ngày sinh </label></td>
+        <td ><input type="text" name="date" class="form-control" id="" placeholder=""></td>
+    </tr>
+    <tr>
+        <td class="colortext"><label for="">Giới tính </label></td>
+        <td>
+            <input type="radio" name="rd"/> Nam
+            <input type="radio" name="rd"/> Nữ
+        </td>
+    </tr>
+    <tr>
+        <td class="colortext"><label for="">Địa chỉ </label></td>
+        <td >
+            <textarea cols="30" rows="4"> </textarea>
+        </td>
+    </tr>
+    <tr>
+        <td class="colortext">
+            <label for="">Lớp </label>
+        </td>
+        <td >
+            <select style="width: 100px;">
+            <option value = "  ">-Chọn lớp-</option>-->
+            <option>Lớp 10</option>-->
+            <option>Lớp 11</option>-->
+            <option>Lớp 2</option>-->
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="colortext">
+            <label for="">Email </label>
+        </td>
+        <td >
+            <input type="text" name="Email" class="form-control" id="" placeholder="">
+        </td>
+    </tr>
+    <tr>
+        <td class="colortext">
+            <label for="">Điện thoại </label>
+        </td>
+        <td >
+            <input type="text" name="Phone" class="form-control" id="" placeholder="">
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input type = "button" name="btSubmit" value="Đăng ký"/>
+            <input type = "button" name="btSubmit" value="Nhập lại"/>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
